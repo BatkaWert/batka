@@ -5,8 +5,8 @@
 :root {
     --image-0: url("./images/image0.png");
     --image-1: url("./images/image1.png");
-    --custom-width: min(1728px, 100vw);
-    --design-width: 1728;
+    --custom-width: min(1496px, 100vw);
+    --design-width: 1496;
     --ratio: calc(var(--custom-width) / var(--design-width));
   }
   
@@ -67,6 +67,7 @@
     background: #100028ff;
   }
   .nodeBg-38 {
+    object-fit: cover;
     background-image: var(--image-0);
     opacity: 1;
   }

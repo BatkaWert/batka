@@ -2,11 +2,16 @@
   Note: These are temporary previews of the images. 
   They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --image-0: url("./images/image0.png");
   --image-1: url("./images/image1.png");
-  --custom-width: min(1728px, 100vw);
-  --design-width: 1728;
+  --custom-width: min(1790px, 100vw);
+  --design-width: 1790;
   --ratio: calc(var(--custom-width) / var(--design-width));
 }
 
@@ -2156,6 +2161,7 @@ body {
   height: 95.74%;
   top: 4.26%;
   left: 0%;
+  right: 20%;
   opacity: 1;
   z-index: 0;
   transform: rotate(0deg);
